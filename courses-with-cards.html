@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LearnHub - Interactive Courses</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        .enroll-btn {
+            background: linear-gradient(90deg, #4f46e5 0%, #7c3aed 100%);
+            transition: all 0.3s ease;
+        }
+        .enroll-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 15px -3px rgba(79, 70, 229, 0.3);
+        }
+        .course-card {
+            transition: all 0.3s ease;
+        }
+        .course-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+<body class="bg-gray-50">
+    <!-- Navigation -->
+    <nav class="bg-white shadow-sm">
+        <!-- Navigation content same as before -->
+    </nav>
+
+    <!-- Main Content -->
+    <main class="max-w-7xl mx-auto px-4 py-12">
+        <!-- Hero Section -->
+        <section class="text-center mb-16">
+            <h1 class="text-4xl font-bold mb-4">Explore Our Courses</h1>
+            <p class="text-lg text-gray-600">Transform your career with our industry-relevant courses</p>
+        </section>
+
+        <!-- Courses Section -->
+        <section class="mb-16">
+            <div class="grid md:grid-cols-2 gap-6">
+                <!-- Java Course Card -->
+                <div class="course-card bg-white p-6 rounded-lg shadow-md">
+                    <h3 class="text-xl font-bold mb-2">Java Programming</h3>
+                    <p class="text-gray-600 mb-4">
+                        Master Java from basics to advanced concepts including OOP, Spring Framework, and enterprise applications.
+                    </p>
+                    <div class="text-sm text-gray-500 mb-4">
+                        <p><i class="fas fa-envelope mr-2"></i> java@learnhub.com</p>
+                        <p><i class="fas fa-phone mr-2"></i> +1 (555) 123-4567</p>
+                    </div>
+                    <a href="index.html#contact" class="enroll-btn text-white px-4 py-2 rounded-md inline-block">
+                        Enroll Now <i class="fas fa-arrow-right ml-1"></i>
+                    </a>
+                </div>
+
+                <!-- Python Course Card -->
+                <div class="course-card bg-white p-6 rounded-lg shadow-md">
+                    <h3 class="text-xl font-bold mb-2">Python Programming</h3>
+                    <p class="text-gray-600 mb-4">
+                        Learn Python for data science, automation, and web development with hands-on projects.
+                    </p>
+                    <div class="text-sm text-gray-500 mb-4">
+                        <p><i class="fas fa-envelope mr-2"></i> python@learnhub.com</p>
+                        <p><i class="fas fa-phone mr-2"></i> +1 (555) 123-4568</p>
+                    </div>
+                    <a href="index.html#contact" class="enroll-btn text-white px-4 py-2 rounded-md inline-block">
+                        Enroll Now <i class="fas fa-arrow-right ml-1"></i>
+                    </a>
+                </div>
+
+                <!-- Add more course cards following the same structure -->
+            </div>
+        </section>
+
+        <!-- SkillsSyn Elite Programs Section -->
+        <section class="mb-16">
+            <h2 class="text-3xl font-bold text-center mb-8">SkillsSyn Elite Programs</h2>
+            <div class="grid md:grid-cols-2 gap-6">
+                <!-- AIML Course Card -->
+                <div class="course-card bg-white p-6 rounded-lg shadow-md">
+                    <h3 class="text-xl font-bold mb-2">Artificial Intelligence and Machine Learning (AIML)</h3>
+                    <p class="text-gray-600 mb-4">
+                        <strong>Course Details:</strong> 12-week intensive program covering Python for AI, TensorFlow, PyTorch, computer vision, NLP, and deployment. Includes 5 real-world projects and certification.
+                    </p>
+                    <div class="text-sm text-gray-500 mb-4">
+                        <p><i class="fas fa-envelope mr-2"></i> aiml@learnhub.com</p>
+                        <p><i class="fas fa-phone mr-2"></i> +1 (555) 123-4571</p>
+                    </div>
+                    <a href="index.html#contact" class="enroll-btn text-white px-4 py-2 rounded-md w-full block text-center">
+                        Enroll Now <i class="fas fa-arrow-right ml-1"></i>
+                    </a>
+                </div>
+
+                <!-- Data Science Course Card -->
+                <div class="course-card bg-white p-6 rounded-lg shadow-md">
+                    <h3 class="text-xl font-bold mb-2">Data Science</h3>
+                    <p class="text-gray-600 mb-4">
+                        <strong>Course Details:</strong> 10-week program teaching Python, Pandas, SQL, Tableau, statistical modeling, and machine learning. Includes capstone project with industry datasets.
+                    </p>
+                    <div class="text-sm text-gray-500 mb-4">
+                        <p><i class="fas fa-envelope mr-2"></i> datascience@learnhub.com</p>
+                        <p><i class="fas fa-phone mr-2"></i> +1 (555) 123-4572</p>
+                    </div>
+                    <a href="index.html#contact" class="enroll-btn text-white px-4 py-2 rounded-md w-full block text-center">
+                        Enroll Now <i class="fas fa-arrow-right ml-1"></i>
+                    </a>
+                </div>
+
+                <!-- Cyber Security Course Card -->
+                <div class="course-card bg-white p-6 rounded-lg shadow-md">
+                    <h3 class="text-xl font-bold mb-2">Cyber Security</h3>
+                    <p class="text-gray-600 mb-4">
+                        <strong>Course Details:</strong> 8-week hands-on training covering penetration testing, cryptography, firewall configuration, incident response, and security compliance standards.
+                    </p>
+                    <div class="text-sm text-gray-500 mb-4">
+                        <p><i class="fas fa-envelope mr-2"></i> cybersecurity@learnhub.com</p>
+                        <p><i class="fas fa-phone mr-2"></i> +1 (555) 123-4573</p>
+                    </div>
+                    <a href="index.html#contact" class="enroll-btn text-white px-4 py-2 rounded-md w-full block text-center">
+                        Enroll Now <i class="fas fa-arrow-right ml-1"></i>
+                    </a>
+                </div>
+
+                <!-- Full Stack Development Course Card -->
+                <div class="course-card bg-white p-6 rounded-lg shadow-md">
+                    <h3 class="text-xl font-bold mb-2">Full Stack Development</h3>
+                    <p class="text-gray-600 mb-4">
+                        <strong>Course Details:</strong> 14-week comprehensive program teaching HTML/CSS, JavaScript, React, Node.js, Express, MongoDB, and REST APIs. Build 4 complete applications.
+                    </p>
+                    <div class="text-sm text-gray-500 mb-4">
+                        <p><i class="fas fa-envelope mr-2"></i> fullstack@learnhub.com</p>
+                        <p><i class="fas fa-phone mr-2"></i> +1 (555) 123-4574</p>
+                    </div>
+                    <a href="index.html#contact" class="enroll-btn text-white px-4 py-2 rounded-md w-full block text-center">
+                        Enroll Now <i class="fas fa-arrow-right ml-1"></i>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
