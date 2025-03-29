@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>College Collaboration | LearnHub</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        .animate-section {
+            animation: fadeIn 0.8s ease-out forwards;
+        }
+        .hover-scale {
+            transition: transform 0.3s ease;
+        }
+        .hover-scale:hover {
+            transform: scale(1.03);
+        }
+    </style>
+</head>
+<body class="bg-gray-50">
+    <!-- Navigation -->
+    <nav class="bg-white shadow-sm">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-16">
+                <div class="flex items-center">
+                    <a href="index.html" class="flex-shrink-0 flex items-center">
+                        <i class="fas fa-graduation-cap text-indigo-600 text-2xl"></i>
+                        <span class="ml-2 text-xl font-bold text-gray-900">LearnHub</span>
+                    </a>
+                </div>
+                <div class="flex items-center space-x-4">
+                    <a href="courses.html" class="text-gray-500 hover:text-gray-700 px-3 py-2">Courses</a>
+                    <a href="college-collaboration.html" class="text-indigo-600 px-3 py-2">College Collaboration</a>
+                    <a href="index.html#mentor" class="text-gray-500 hover:text-gray-700 px-3 py-2">1:1 Training</a>
+                    <a href="index.html#contact" class="text-gray-500 hover:text-gray-700 px-3 py-2">Contact</a>
+                    <button class="bg-indigo-600 text-white px-4 py-2 rounded-md hover:bg-indigo-700">Sign In</button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+        <!-- Hero Section -->
+        <section class="animate-section text-center py-16">
+            <h1 class="text-4xl font-bold text-gray-900 mb-6">Unlock Your Potential With World-Class Learning</h1>
+            <div class="w-24 h-1 bg-indigo-600 mx-auto mb-8"></div>
+            <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+                Transform your institution with our comprehensive college collaboration program
+            </p>
+        </section>
+
+        <!-- College Collaboration Program -->
+        <section class="animate-section py-16" style="animation-delay: 0.2s;">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl font-bold text-gray-900">College Collaboration Program</h2>
+                <div class="w-20 h-1 bg-indigo-600 mx-auto mt-4"></div>
+            </div>
+            <div class="grid md:grid-cols-2 gap-8 items-center hover-scale">
+                <div>
+                    <p class="text-gray-700 mb-6">
+                        LearnHub bridges the gap between traditional education and modern skill requirements. 
+                        We combine academic rigor with practical approach to create career-transforming 
+                        learning experiences for college students.
+                    </p>
+                    <div class="grid grid-cols-2 gap-4">
+                        <div class="bg-indigo-50 p-4 rounded-lg transform transition hover:scale-105">
+                            <div class="text-3xl font-bold text-indigo-600">150+</div>
+                            <div class="text-gray-600">College Partners</div>
+                        </div>
+                        <div class="bg-indigo-50 p-4 rounded-lg transform transition hover:scale-105">
+                            <div class="text-3xl font-bold text-indigo-600">85%</div>
+                            <div class="text-gray-600">Placement Rate</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-gray-100 p-8 rounded-lg hover-scale">
+                    <img src="https://images.unsplash.com/photo-1523050854058-8df90110c9f1" alt="College Students" class="rounded-lg mb-4 w-full h-64 object-cover">
+                    <h3 class="text-xl font-bold mb-2">Our Mission</h3>
+                    <p class="text-gray-700">
+                        To make quality industry-aligned education accessible for college students through strategic partnerships.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- How We Help Increase Placements -->
+        <section class="animate-section py-16 bg-gray-50" style="animation-delay: 0.4s;">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl font-bold text-gray-900">How We Help Increase Placements</h2>
+                <div class="w-20 h-1 bg-indigo-600 mx-auto mt-4"></div>
+            </div>
+            <div class="max-w-4xl mx-auto">
+                <div class="space-y-8">
+                    <div class="flex items-start hover-scale">
+                        <div class="bg-indigo-100 text-indigo-800 font-bold rounded-full w-10 h-10 flex items-center justify-center mr-4 text-xl">1</div>
+                        <div>
+                            <h3 class="text-xl font-bold mb-2">Industry-Aligned Curriculum</h3>
+                            <p class="text-gray-700">Our courses are designed with direct input from hiring managers to ensure students learn exactly what employers need.</p>
+                        </div>
+                    </div>
+                    <div class="flex items-start hover-scale">
+                        <div class="bg-indigo-100 text-indigo-800 font-bold rounded-full w-10 h-10 flex items-center justify-center mr-4 text-xl">2</div>
+                        <div>
+                            <h3 class="text-xl font-bold mb-2">Project-Based Learning</h3>
+                            <p class="text-gray-700">Students build portfolio-worthy projects that demonstrate real-world skills to potential employers.</p>
+                        </div>
+                    </div>
+                    <div class="flex items-start hover-scale">
+                        <div class="bg-indigo-100 text-indigo-800 font-bold rounded-full w-10 h-10 flex items-center justify-center mr-4 text-xl">3</div>
+                        <div>
+                            <h3 class="text-xl font-bold mb-2">Hiring Partnerships</h3>
+                            <p class="text-gray-700">We connect our partner colleges with our network of 500+ hiring companies across industries.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Our Core Services -->
+        <section class="animate-section py-16" style="animation-delay: 0.6s;">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl font-bold text-gray-900">Our Core Services</h2>
+                <div class="w-20 h-1 bg-indigo-600 mx-auto mt-4"></div>
+            </div>
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="bg-white p-8 rounded-lg shadow-sm hover-scale">
+                    <div class="text-indigo-600 text-4xl mb-4">
+                        <i class="fas fa-laptop-code"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-4">Technical Training</h3>
+                    <ul class="space-y-3 text-gray-700">
+                        <li class="flex items-start">
+                            <i class="fas fa-check text-indigo-600 mt-1 mr-2"></i>
+                            <span>Full Stack Development</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check text-indigo-600 mt-1 mr-2"></i>
+                            <span>Data Science & AI</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check text-indigo-600 mt-1 mr-2"></i>
+                            <span>Cloud Computing</span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="bg-white p-8 rounded-lg shadow-sm hover-scale">
+                    <div class="text-indigo-600 text-4xl mb-4">
+                        <i class="fas fa-user-graduate"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-4">Student Development</h3>
+                    <ul class="space-y-3 text-gray-700">
+                        <li class="flex items-start">
+                            <i class="fas fa-check text-indigo-600 mt-1 mr-2"></i>
+                            <span>Career Readiness</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check text-indigo-600 mt-1 mr-2"></i>
+                            <span>Soft Skills Training</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check text-indigo-600 mt-1 mr-2"></i>
+                            <span>Interview Preparation</span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="bg-white p-8 rounded-lg shadow-sm hover-scale">
+                    <div class="text-indigo-600 text-4xl mb-4">
+                        <i class="fas fa-chalkboard-teacher"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-4">Faculty Development</h3>
+                    <ul class="space-y-3 text-gray-700">
+                        <li class="flex items-start">
+                            <i class="fas fa-check text-indigo-600 mt-1 mr-2"></i>
+                            <span>Curriculum Design</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check text-indigo-600 mt-1 mr-2"></i>
+                            <span>Teaching Methodologies</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check text-indigo-600 mt-1 mr-2"></i>
+                            <span>Technical Workshops</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Custom College Collaboration Plans -->
+        <section class="animate-section py-16 bg-gray-50" style="animation-delay: 0.8s;">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl font-bold text-gray-900">Custom College Collaboration Plans</h2>
+                <div class="w-20 h-1 bg-indigo-600 mx-auto mt-4"></div>
+            </div>
+            <div class="max-w-4xl mx-auto">
+                <div class="bg-white p-8 rounded-lg shadow-sm hover-scale">
+                    <div class="grid md:grid-cols-2 gap-8">
+                        <div>
+                            <h3 class="text-xl font-bold mb-4 text-indigo-600">Our Process</h3>
+                            <ol class="space-y-4">
+                                <li class="flex items-start">
+                                    <div class="bg-indigo-100 text-indigo-800 font-bold rounded-full w-8 h-8 flex items-center justify-center mr-3">1</div>
+                                    <span>Initial consultation to understand your needs</span>
+                                </li>
+                                <li class="flex items-start">
+                                    <div class="bg-indigo-100 text-indigo-800 font-bold rounded-full w-8 h-8 flex items-center justify-center mr-3">2</div>
+                                    <span>Custom program design</span>
+                                </li>
+                                <li class="flex items-start">
+                                    <div class="bg-indigo-100 text-indigo-800 font-bold rounded-full w-8 h-8 flex items-center justify-center mr-3">3</div>
+                                    <span>Implementation and training</span>
+                                </li>
+                                <li class="flex items-start">
+                                    <div class="bg-indigo-100 text-indigo-800 font-bold rounded-full w-8 h-8 flex items-center justify-center mr-3">4</div>
+                                    <span>Ongoing support and optimization</span>
+                                </li>
+                            </ol>
+                        </div>
+                        <div>
+                            <h3 class="text-xl font-bold mb-4 text-indigo-600">Pricing Options</h3>
+                            <ul class="space-y-3">
+                                <li class="flex items-start">
+                                    <i class="fas fa-check text-indigo-600 mt-1 mr-2"></i>
+                                    <span>Basic: ₹49,999/year (up to 100 students)</span>
+                                </li>
+                                <li class="flex items-start">
+                                    <i class="fas fa-check text-indigo-600 mt-1 mr-2"></i>
+                                    <span>Professional: ₹99,999/year (unlimited students)</span>
+                                </li>
+                                <li class="flex items-start">
+                                    <i class="fas fa-check text-indigo-600 mt-1 mr-2"></i>
+                                    <span>Enterprise: Custom pricing for large institutions</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Get Started -->
+        <section class="animate-section py-16" style="animation-delay: 1s;">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl font-bold text-gray-900">Get Started With College Collaboration</h2>
+                <div class="w-20 h-1 bg-indigo-600 mx-auto mt-4"></div>
+            </div>
+            <div class="max-w-2xl mx-auto bg-white p-8 rounded-lg shadow-sm hover-scale">
+                <form>
+                    <div class="grid md:grid-cols-2 gap-6">
+                        <div>
+                            <label class="block text-sm font-medium text-gray-700 mb-1">College Name*</label>
+                            <input type="text" required class="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-indigo-500 focus:border-indigo-500">
+                        </div>
+                        <div>
+                            <label class="block text-sm font-medium text-gray-700 mb-1">Contact Person*</label>
+                            <input type="text" required class="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-indigo-500 focus:border-indigo-500">
+                        </div>
+                        <div>
+                            <label class="block text-sm font-medium text-gray-700 mb-1">Email*</label>
+                            <input type="email" required class="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-indigo-500 focus:border-indigo-500">
+                        </div>
+                        <div>
+                            <label class="block text-sm font-medium text-gray-700 mb-1">Phone*</label>
+                            <input type="tel" required class="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-indigo-500 focus:border-indigo-500">
+                        </div>
+                    </div>
+                    <div class="mt-6">
+                        <label class="block text-sm font-medium text-gray-700 mb-2">Interested In*</label>
+                        <div class="grid md:grid-cols-2 gap-4">
+                            <label class="flex items-center">
+                                <input type="checkbox" class="h-4 w-4 text-indigo-600 focus:ring-indigo-500 border-gray-300 rounded">
+                                <span class="ml-2 text-sm text-gray-700">Technical Training</span>
+                            </label>
+                            <label class="flex items-center">
+                                <input type="checkbox" class="h-4 w-4 text-indigo-600 focus:ring-indigo-500 border-gray-300 rounded">
+                                <span class="ml-2 text-sm text-gray-700">Placement Support</span>
+                            </label>
+                            <label class="flex items-center">
+                                <input type="checkbox" class="h-4 w-4 text-indigo-600 focus:ring-indigo-500 border-gray-300 rounded">
+                                <span class="ml-2 text-sm text-gray-700">Faculty Development</span>
+                            </label>
+                            <label class="flex items-center">
+                                <input type="checkbox" class="h-4 w-4 text-indigo-600 focus:ring-indigo-500 border-gray-300 rounded">
+                                <span class="ml-2 text-sm text-gray-700">Custom Program</span>
+                            </label>
+                        </div>
+                    </div>
+                    <div class="mt-6">
+                        <label class="block text-sm font-medium text-gray-700 mb-1">Additional Information</label>
+                        <textarea rows="4" class="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-indigo-500 focus:border-indigo-500"></textarea>
+                    </div>
+                    <button type="submit" class="mt-6 w-full bg-indigo-600 text-white px-6 py-3 rounded-md hover:bg-indigo-700 transition-colors">
+                        Submit Enquiry
+                    </button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <script>
+        // Add intersection observer for animations
+        document.addEventListener('DOMContentLoaded', function() {
+            const sections = document.querySelectorAll('.animate-section');
+            
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.style.opacity = 1;
+                    }
+                });
+            }, {threshold: 0.1});
+
+            sections.forEach(section => {
+                section.style.opacity = 0;
+                observer.observe(section);
+            });
+        });
+    </script>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-12">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid md:grid-cols-4 gap-8">
+                <div>
+                    <h3 class="text-lg font-bold mb-4">LearnHub</h3>
+                    <p class="text-gray-400">
+                        Bridging the gap between education and industry requirements.
+                    </p>
+                </div>
+                <div>
+                    <h3 class="text-lg font-bold mb-4">Quick Links</h3>
+                    <ul class="space-y-2">
+                        <li><a href="courses.html" class="text-gray-400 hover:text-white">Courses</a></li>
+                        <li><a href="college-collaboration.html" class="text-gray-400 hover:text-white">College Collaboration</a></li>
+                        <li><a href="mentorship.html" class="text-gray-400 hover:text-white">1:1 Mentorship</a></li>
+                        <li><a href="#contact" class="text-gray-400 hover:text-white">Contact</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-lg font-bold mb-4">Contact</h3>
+                    <ul class="space-y-2 text-gray-400">
+                        <li class="flex items-start">
+                            <i class="fas fa-envelope mt-1 mr-2"></i>
+                            <span>skillsysn@hotmail.com</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-phone-alt mt-1 mr-2"></i>
+                            <span>+91 9607402393</span>
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-lg font-bold mb-4">Follow Us</h3>
+                    <div class="flex space-x-4">
+                        <a href="#" class="text-gray-400 hover:text-white"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="text-gray-400 hover:text-white"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="text-gray-400 hover:text-white"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#" class="text-gray-400 hover:text-white"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="border-t border-gray-700 mt-12 pt-8 text-center text-gray-400">
+                <p>&copy; 2023 LearnHub. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
